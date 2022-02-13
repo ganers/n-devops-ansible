@@ -1,7 +1,7 @@
 ---
 elasticsearch:
   hosts:
-    ubuntu:
+    elastic:
       ansible_connection: docker
       ansible_user: root
 kibana:
