@@ -1,0 +1,13 @@
+---
+- name: Elasticseacrh Install
+  hosts: elasticsearch
+  roles:
+    - elasticsearch-role
+- name: Kibana Install
+  hosts: kibana
+  roles:
+    - kibana-role
+- name: Filebeat Install
+  hosts: filebeat
+  roles:
+    - kibana-role
